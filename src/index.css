@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.textDiv{
+   transition: all .2s ease ;
+}
+.iconDiv{
+   transition: all .2s ease ;
+}
+.hoverRound:hover .textDiv{
+   background-color: white;
+   color: black;
+   cursor: pointer;
+}
+.hoverRound:hover .iconDiv{
+   background-color: white;
+   color: black;
+   cursor: pointer;
+}
+.featureInner{
+   transition: all ease .7s;
+}
+.featureOuter{
+   cursor: pointer;
+   transition: all ease .6s;
+}
+.left:hover .featureOuter{
+  transform: scale(.92);
+}
+.right:hover .featureOuter{
+  transform: scale(.92);
+}
+.featureOuter:hover .featureInner{
+   transform: scale(1.18);
+}
+.leftHead{
+   transition: all .3s ease .1s;
+}
+.left:hover .leftHead{
+   opacity: 1;
+}
+.rightHead{
+   transition: all .3s ease .1s;
+}
+.right:hover .rightHead{
+   opacity: 1;
+}
+.readMore:hover .whiteDiv{
+   transform: scale(4);
+}
+.readMore:hover .arrow{
+   opacity: 1;
+}
